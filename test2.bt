@@ -1,0 +1,116 @@
+[
+  {
+    "version": "1.2.0"
+  },
+  {
+    "activated": true,
+    "metadata": {
+      "label": ""
+    },
+    "properties": {},
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {
+          "statusCondition": "failsIfAnyFails",
+          "retryPolicy": "propagateToRunning"
+        },
+        "children": [],
+        "id": "e85b3469-cba6-4254-aeac-b1f37f3e2032",
+        "type": "parallel"
+      },
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "op1": {
+                "type": "boolean",
+                "value": "false"
+              },
+              "op2": {
+                "type": "boolean",
+                "value": "true"
+              },
+              "op": "=="
+            },
+            "children": [],
+            "id": "2a8a2d41-2afd-4b26-ac61-5cf31b03b881",
+            "type": "until"
+          }
+        ],
+        "id": "cbcb636b-b03b-43e9-813c-31480048dc7d",
+        "type": "random"
+      },
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "op1": {
+                "type": "boolean",
+                "value": "false"
+              },
+              "op2": {
+                "type": "boolean",
+                "value": "true"
+              },
+              "op": "=="
+            },
+            "children": [],
+            "id": "49f94541-7421-403b-b492-6aa3a0285ca4",
+            "type": "until"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [],
+            "id": "1c059056-b009-4bf3-acc6-d9a9b5a66a3e",
+            "type": "not"
+          }
+        ],
+        "id": "93610140-1ee0-4acc-8483-6bcdd875485f",
+        "type": "sequence"
+      },
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {
+          "behavior": {
+            "type": "uriPath",
+            "value": ""
+          },
+          "inputParams": []
+        },
+        "children": [],
+        "id": "1b0c1860-0ce9-4872-bf06-9c2462af8842",
+        "type": "embedded"
+      }
+    ],
+    "id": "521aaaed-97c8-4fe8-8a22-72198b053038"
+  }
+]

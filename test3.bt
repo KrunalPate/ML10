@@ -1,0 +1,182 @@
+[
+  {
+    "version": "1.2.0"
+  },
+  {
+    "activated": true,
+    "metadata": {
+      "label": ""
+    },
+    "properties": {},
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {
+          "op1": {
+            "type": "boolean",
+            "value": "false"
+          },
+          "op2": {
+            "type": "boolean",
+            "value": "true"
+          },
+          "op": "=="
+        },
+        "children": [],
+        "id": "9f9f039b-3377-4330-a737-f6de9210d60b",
+        "type": "until"
+      },
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "op1": {
+                "type": "boolean",
+                "value": "true"
+              },
+              "op2": {
+                "type": "boolean",
+                "value": "true"
+              },
+              "op": "=="
+            },
+            "children": [
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "op1": {
+                    "type": "boolean",
+                    "value": "false"
+                  },
+                  "op2": {
+                    "type": "boolean",
+                    "value": "true"
+                  },
+                  "op": "=="
+                },
+                "children": [],
+                "id": "981c7c71-0d86-49d6-9df0-3ea0c591dec1",
+                "type": "until"
+              }
+            ],
+            "id": "1b32433d-6c20-43d3-a363-27a13d748932",
+            "type": "condition"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [],
+            "id": "ee1ab022-5eb2-4239-8643-61e5cc964979",
+            "type": "sequence"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "behavior": {
+                    "type": "uriPath",
+                    "value": ""
+                  },
+                  "inputParams": []
+                },
+                "children": [],
+                "id": "b5cbc2b9-b6c6-4df1-969b-59601a2a6732",
+                "type": "embedded"
+              }
+            ],
+            "id": "4c404f1c-6d84-43bb-9c61-dacffe85c3b5",
+            "type": "sequence"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "statusCondition": "failsIfAnyFails",
+              "retryPolicy": "propagateToRunning"
+            },
+            "children": [],
+            "id": "867645ca-1d38-4ffd-a8ad-1d31bb63e921",
+            "type": "parallel"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "name": "",
+                  "inputParams": [],
+                  "outputParams": []
+                },
+                "children": [],
+                "id": "7dd857c3-5241-4408-98e1-8a3652ed80ad",
+                "type": "action"
+              }
+            ],
+            "id": "7af13109-efbd-4d30-870f-ab0859e9764e",
+            "type": "success"
+          }
+        ],
+        "id": "268a9b88-868c-422c-8832-80ea6f923a8d",
+        "type": "random"
+      },
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {
+          "op1": {
+            "type": "boolean",
+            "value": "false"
+          },
+          "op2": {
+            "type": "boolean",
+            "value": "true"
+          },
+          "op": "=="
+        },
+        "children": [],
+        "id": "bf15d265-735c-4a21-ae45-9fcc317e3856",
+        "type": "until"
+      }
+    ],
+    "id": "5c9f6bf5-7e52-4ccb-8838-0586d7402dc9"
+  }
+]

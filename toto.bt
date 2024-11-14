@@ -1,0 +1,307 @@
+[
+  {
+    "version": "1.2.0"
+  },
+  {
+    "activated": true,
+    "metadata": {
+      "label": ""
+    },
+    "properties": {},
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {
+          "name": "",
+          "inputParams": [
+            {
+              "key": "frfr",
+              "type": "entityKnowledge",
+              "value": "frfr"
+            },
+            {
+              "key": "ffff",
+              "type": "boolean",
+              "value": "false"
+            }
+          ],
+          "outputParams": [
+            {
+              "key": "bbbb",
+              "type": "entityKnowledge",
+              "value": "bbbbb"
+            }
+          ]
+        },
+        "children": [],
+        "id": "307e1d93-673f-4a46-9de6-0ed36923fdfc",
+        "type": "action"
+      },
+      {
+        "activated": true,
+        "metadata": {
+          "label": "lololololololo"
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "op1": {
+                "type": "boolean",
+                "value": "false"
+              },
+              "op2": {
+                "type": "boolean",
+                "value": "true"
+              },
+              "op": "=="
+            },
+            "children": [],
+            "id": "fb60cf14-69b1-4153-bff8-129dc2269db2",
+            "type": "until"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "behavior": {
+                "type": "uriPath",
+                "value": ""
+              },
+              "inputParams": []
+            },
+            "children": [],
+            "id": "8ee0d0b2-cc21-4e37-b7e0-aa76524f8455",
+            "type": "embedded"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "google/calendar/AddEvent",
+              "inputParams": [
+                {
+                  "key": "description",
+                  "type": "string",
+                  "value": "dededededede"
+                },
+                {
+                  "key": "location",
+                  "type": "string",
+                  "value": "xdxdx"
+                }
+              ],
+              "outputParams": [
+                {
+                  "key": "destination",
+                  "type": "entityKnowledge",
+                  "value": ""
+                }
+              ]
+            },
+            "children": [],
+            "id": "17d3b5f6-f274-4ec6-9df9-97b3775cb4ac",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "google/calendar/CreateCalendar",
+              "inputParams": [],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "09b12d09-a2ef-45f5-93a7-f1e5e020becf",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "google/calendar/CopyEvent",
+              "inputParams": [],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "6a12b2e3-b4d4-4c84-98cd-361bf5d0110f",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {},
+                "children": [
+                  {
+                    "activated": true,
+                    "metadata": {
+                      "label": ""
+                    },
+                    "properties": {
+                      "name": "google/calendar/RetrieveCalendars",
+                      "inputParams": [],
+                      "outputParams": []
+                    },
+                    "children": [],
+                    "id": "179c6132-db7f-4111-bc01-f754a1ceb8cc",
+                    "type": "action"
+                  },
+                  {
+                    "activated": true,
+                    "metadata": {
+                      "label": ""
+                    },
+                    "properties": {
+                      "name": "google/calendar/UpdateEvent",
+                      "inputParams": [],
+                      "outputParams": []
+                    },
+                    "children": [],
+                    "id": "4cf9a55c-6dbc-4a3f-a315-ef8c481a88ff",
+                    "type": "action"
+                  },
+                  {
+                    "activated": true,
+                    "metadata": {
+                      "label": ""
+                    },
+                    "properties": {
+                      "name": "google/calendar/RemoveEvent",
+                      "inputParams": [],
+                      "outputParams": []
+                    },
+                    "children": [],
+                    "id": "c8d8efd9-64c3-4d50-aac7-96ab6069f956",
+                    "type": "action"
+                  },
+                  {
+                    "activated": true,
+                    "metadata": {
+                      "label": ""
+                    },
+                    "properties": {
+                      "name": "google/calendar/DeleteCalendar",
+                      "inputParams": [],
+                      "outputParams": []
+                    },
+                    "children": [],
+                    "id": "1006a920-8baa-4837-9685-ca400d3c6e77",
+                    "type": "action"
+                  },
+                  {
+                    "activated": true,
+                    "metadata": {
+                      "label": ""
+                    },
+                    "properties": {
+                      "name": "google/calendar/GetDayEvents",
+                      "inputParams": [],
+                      "outputParams": []
+                    },
+                    "children": [],
+                    "id": "aeaa92cd-c8a4-43e8-9c89-911ac500e3d3",
+                    "type": "action"
+                  }
+                ],
+                "id": "554477cd-3d71-4640-b71e-ed8581389e0b",
+                "type": "sequence"
+              },
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "name": "google/calendar/GetNextEvent",
+                  "inputParams": [],
+                  "outputParams": []
+                },
+                "children": [],
+                "id": "d27f5954-51c8-40dd-971b-827b95f05686",
+                "type": "action"
+              },
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "name": "google/mail/SendEmail",
+                  "inputParams": [],
+                  "outputParams": []
+                },
+                "children": [],
+                "id": "c61d61c0-2cd2-4e4b-8080-69ac3d794781",
+                "type": "action"
+              },
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "name": "google/maps/GetDirections",
+                  "inputParams": [
+                    {
+                      "key": "destination",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "key": "mode",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ],
+                  "outputParams": []
+                },
+                "children": [],
+                "id": "0ca16089-ab51-4c64-b248-0c64db1eb19a",
+                "type": "action"
+              }
+            ],
+            "id": "f921a9ee-18e1-47b3-92e5-a705afa0a862",
+            "type": "sequence"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [],
+            "id": "16928dc1-da7f-4a2c-a586-0ef183e78f9d",
+            "type": "not"
+          }
+        ],
+        "id": "36596432-c283-4753-90cf-5811a42cfe90",
+        "type": "sequence"
+      }
+    ],
+    "id": "3898053a-1a14-4bc2-9791-1354eeaf6b3b"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "version": "1.2.0"
+  },
+  {
+    "activated": true,
+    "metadata": {
+      "label": ""
+    },
+    "properties": {},
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "",
+              "inputParams": [],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "c77807cb-9d70-47d0-b8d2-051047f18f08",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "op1": {
+                "type": "boolean",
+                "value": "true"
+              },
+              "op2": {
+                "type": "boolean",
+                "value": "true"
+              },
+              "op": "=="
+            },
+            "children": [],
+            "id": "cb1dbb0b-37f4-4fab-98b2-16982906d27c",
+            "type": "condition"
+          }
+        ],
+        "id": "e36a593f-edd5-4ae1-8419-e9a1826819c5",
+        "type": "sequence"
+      }
+    ],
+    "id": "fa292841-d7ba-4d2b-af9c-64ff69e7a148"
+  }
+]

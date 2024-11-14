@@ -1,0 +1,25 @@
+[
+  {
+    "version": "1.2.0"
+  },
+  {
+    "activated": true,
+    "metadata": {
+      "label": ""
+    },
+    "properties": {},
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [],
+        "id": "368cd298-dc67-4ed4-a065-eecb5a17e6ab",
+        "type": "sequence"
+      }
+    ],
+    "id": "b0a61768-5975-49ed-9562-a5e06d315027"
+  }
+]
